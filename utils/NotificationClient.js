@@ -17,13 +17,13 @@ const sendEmail = (emailsIds,subject,html,text)=>{
     let mailTransporter = nodemailer.createTransport({
         service:'gmail',
         auth:{
-            user:"utkarshmalik06@gmail.com",
+            user:"chatterjeeantarip1234@gmail.com",
             pass:"dhtpxgwvsmuyvsuh"
         }
     });
 
     let mailDetails = {
-        from : "utkarshmalik06@gmail.com",
+        from : "chatterjeeantarip1234@gmail.com",
         to:emailsIds,
         subject:subject
     }
